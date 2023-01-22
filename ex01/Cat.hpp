@@ -4,6 +4,8 @@
 #include "Animal.hpp"
 class Cat:public Animal
 {
+	private:
+		Brain	*B;
 	public:
 		void makeSound() const;
 		Cat(const Cat &rhs);
