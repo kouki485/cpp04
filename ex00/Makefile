@@ -3,6 +3,8 @@ NAME	= Animal
 SRCS	= Animal.cpp \
 		  cat.cpp\
 		  dog.cpp\
+		  WrongAnimal.cpp\
+		  WrongCat.cpp\
 		  main.cpp
 
 OBJS		= $(SRCS:%.c=%.o)
