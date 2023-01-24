@@ -10,6 +10,8 @@ Dog::~Dog()
 	std::cout << this->type << " destructor called." << std::endl;
 }
 
+Dog::Dog(const Dog &rhs): Animal(rhs) {}
+
 Dog &Dog::operator=(const Dog &rhs)
 {
 	if(this != &rhs)
