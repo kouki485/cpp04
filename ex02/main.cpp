@@ -5,6 +5,7 @@ int main()
 	const int i = 8;
 	std::cout << "\033[31m ----------------Constructor--------------- \033[m" << std::endl;
 
+	//Animal a; compile errorになる。
 	Animal *animals[i];
 	for(int j = 0;j < i; j++)
 	{
